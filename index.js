@@ -3,10 +3,10 @@
  * Module dependencies.
  */
 
-var Emitter = require('emitter');
-var clone = require('clone');
-var type = require('type');
-var ease = require('ease');
+var Emitter = require('component-emitter');
+var clone = require('component-clone');
+var type = require('component-type');
+var ease = require('ease-component');
 
 /**
  * Expose `Tween`.
